@@ -1,0 +1,151 @@
+body {
+  background: #1c1ca2;
+}
+
+@-webkit-keyframes hueRotate {
+  to {
+    -webkit-filter: hue-rotate(360deg);
+            filter: hue-rotate(360deg);
+  }
+}
+
+@keyframes hueRotate {
+  to {
+    -webkit-filter: hue-rotate(360deg);
+            filter: hue-rotate(360deg);
+  }
+}
+@-webkit-keyframes colour-1 {
+  0% {
+    top: 0vh;
+    left: 50vw;
+  }
+  25% {
+    left: 0vw;
+  }
+  50% {
+    top: 100vh;
+  }
+  75% {
+    left: 100vw;
+  }
+  100% {
+    top: 0vh;
+    left: 50vw;
+  }
+}
+@keyframes colour-1 {
+  0% {
+    top: 0vh;
+    left: 50vw;
+  }
+  25% {
+    left: 0vw;
+  }
+  50% {
+    top: 100vh;
+  }
+  75% {
+    left: 100vw;
+  }
+  100% {
+    top: 0vh;
+    left: 50vw;
+  }
+}
+@-webkit-keyframes colour-2 {
+  0% {
+    top: 50vh;
+    left: 100vw;
+  }
+  25% {
+    top: 100vh;
+  }
+  50% {
+    left: 0vw;
+  }
+  75% {
+    top: 0vh;
+  }
+  100% {
+    top: 50vh;
+    left: 100vw;
+  }
+}
+@keyframes colour-2 {
+  0% {
+    top: 50vh;
+    left: 100vw;
+  }
+  25% {
+    top: 100vh;
+  }
+  50% {
+    left: 0vw;
+  }
+  75% {
+    top: 0vh;
+  }
+  100% {
+    top: 50vh;
+    left: 100vw;
+  }
+}
+@-webkit-keyframes colour-3 {
+  0% {
+    top: 100vh;
+    left: 50vw;
+  }
+  25% {
+    left: 100vw;
+  }
+  50% {
+    top: 0vh;
+  }
+  75% {
+    left: 0vw;
+  }
+  100% {
+    top: 100vh;
+    left: 50vw;
+  }
+}
+@keyframes colour-3 {
+  0% {
+    top: 100vh;
+    left: 50vw;
+  }
+  25% {
+    left: 100vw;
+  }
+  50% {
+    top: 0vh;
+  }
+  75% {
+    left: 0vw;
+  }
+  100% {
+    top: 100vh;
+    left: 50vw;
+  }
+}
+.colour-1 {
+  -webkit-box-shadow: 0 0 45vmax 45vmax purple;
+          box-shadow: 0 0 45vmax 45vmax purple;
+  -webkit-animation: hueRotate 10s 0s linear infinite, colour-1 19s 0s linear infinite;
+          animation: hueRotate 10s 0s linear infinite, colour-1 19s 0s linear infinite;
+}
+
+.colour-2 {
+  -webkit-box-shadow: 0 0 45vmax 45vmax blue;
+          box-shadow: 0 0 45vmax 45vmax blue;
+  -webkit-animation: hueRotate 15s 0s linear infinite, colour-2 25s 0s linear infinite;
+          animation: hueRotate 15s 0s linear infinite, colour-2 25s 0s linear infinite;
+}
+
+.colour-3 {
+  -webkit-box-shadow: 0 0 45vmax 45vmax red;
+          box-shadow: 0 0 45vmax 45vmax red;
+  -webkit-animation: hueRotate 20s 0s linear infinite, colour-3 15s 0s linear infinite;
+          animation: hueRotate 20s 0s linear infinite, colour-3 15s 0s linear infinite;
+}

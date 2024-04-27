@@ -1,0 +1,19 @@
+.navbar-light {
+  background-color: rgba(255, 255, 255, 0.4);
+  border-bottom: 1px solid rgb(128 128 128 / 40%);
+  box-shadow: 2px 5px 12px -5px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 2px 5px 12px -5px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 2px 5px 12px -5px rgba(0, 0, 0, 0.4);
+}
+
+.navbar-light .navbar-toggler {
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.navbar-light .navbar-toggler:focus {
+  box-shadow: 0 0 0 0;
+}
+
+.collapse {
+  justify-content: flex-end;
+}
