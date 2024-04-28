@@ -10,6 +10,17 @@ body {
   display: none;
 }
 
+input[type="text"] {
+  background-color: #f6f6f6;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px;
+  width: 85%;
+  border: 2px solid #f6f6f6;
+}
+
 section {
   /* border: 2px solid gray; */
   width: 100%;
@@ -224,4 +235,12 @@ section {
 .btn-outline-secondary {
   min-width: 125px;
   border-radius: 25px;
+}
+
+.btn-outline-secondary.btn-outline-dev:hover {
+  background-color: rgba(0, 0, 255, .2);
+}
+
+.btn-outline-secondary.btn-outline-admin:hover {
+  background-color: rgba(255 0 0 / 20%);
 }

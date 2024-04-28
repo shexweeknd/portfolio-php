@@ -58,6 +58,13 @@
   z-index: 1;
 }
 
+.profil .overlay p {
+  color: white;
+  margin-bottom: 2.5rem;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
 .profil .overlay p,
 .profil .overlay span {
   text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.6);
@@ -71,10 +78,13 @@
   height: 100%;
   padding: 0.5rem 0 0 0.5rem;
   border: 3px solid;
-  border-image: linear-gradient(to bottom,
+  border-image: linear-gradient(
+      to bottom,
       #aea724 5%,
       forestgreen 35% 65%,
-      #aea724 95%) 0 0 0 100%;
+      #aea724 95%
+    )
+    0 0 0 100%;
   transition: 0.3s ease-in-out 0.2s;
   z-index: 1;
   position: relative;
@@ -261,4 +271,15 @@
 
 .profil .delay-8 {
   animation-delay: 2.4s;
+}
+
+/* responsive */
+@media screen and (max-width: 980px) {
+  .profil .overlay h1 {
+    font-size: 3rem;
+  }
+
+  .profil .overlay p {
+    font-size: 2rem;
+  }
 }

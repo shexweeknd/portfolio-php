@@ -107,7 +107,7 @@
         }
 
         ul>li {
-            font-size: 1em;
+            font-size: .9em;
             background-color: red;
             color: white;
             white-space: nowrap;
@@ -124,17 +124,46 @@
         margin: 0 1rem;
     }
 
-    .compsys .competences .competences-content .modules {}
+    @media screen and (max-width: 980px) {
+        .compsys .competences .competences-content {
+            margin: 0 1rem;
+        }
 
-    .compsys .competences .competences-content .os {}
+        .compsys .cv {
+            background-image: unset;
+            position: absolute;
+            width: 100%;
+        }
+
+        .compsys .skeleton {
+            animation: unset;
+        }
+
+        .compsys .cv .cv-image {
+            position: absolute;
+            left: 20%;
+            width: 30%;
+            transform: translate(50%, 90%);
+        }
+
+        .compsys .cv .button-container {
+            position: absolute;
+            left: 0;
+            margin-top: 110%;
+        }
+
+        .compsys .cv .button-container .btn {
+            border-radius: 25px;
+        }
+    }
 </style>
 
 <section id="compsys" class="compsys">
     <div class="cv skeleton">
         <div class="cv-image skeleton" data-aos="fade-up">
-            <img src="assets/svg/CV-dev.svg" alt="">
+            <img src="assets/svg/CV-admin.svg" alt="">
             <div class="consult">
-                <button id="admin-cv-button" type="button" class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#cv-modal">VOIR</button>
+                <button id="admin-cv-button" type="button" class="btn btn-outline-secondary btn-outline-admin" data-bs-toggle="modal" data-bs-target="#cv-modal">VOIR</button>
             </div>
         </div>
         <div class="button-container" data-aos="fade-up">
@@ -150,6 +179,8 @@
             <div class="modules">
                 <ul class="text-white">
                     <li>Kernel [2024 - Actuel]</li>
+                    <li>LVM [2024 - Actuel]</li>
+                    <li>Clustering [2024 - Actuel]</li>
                     <li>Linux Process [2024 - Actuel]</li>
                     <li>Systemd [2024 - Actuel]</li>
                     <li>Containers [2023 - Actuel]</li>

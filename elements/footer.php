@@ -1,4 +1,5 @@
-<footer class="footer" id="particles-js">
+<!-- <footer class="footer" id="particles-js"> -->
+<footer class="footer">
     <div class="footer-content">
         <ul class="social-icon" style="padding-left: 0">
             <li class="social-icon__item"><a class="social-icon__link" href="https://www.facebook.com/NRA303">

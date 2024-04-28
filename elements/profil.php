@@ -42,7 +42,7 @@
         <div class="overlay">
             <div class="overlay-content animate slide-left delay-2">
                 <h1 class="animate slide-left pop delay-4">whoami</h1>
-                <p class="animate slide-left pop delay-5" style="color: white; margin-bottom: 2.5rem; font-size: 3rem; font-weight: 600">ShexWeeknd<br /><span style="width: min-content; white-space: nowrap;display: flex;align-items: center;justify-content: center;">| hramaros</span></p>
+                <p class="animate slide-left pop delay-5" style="">ShexWeeknd<br /><span style="width: min-content; white-space: nowrap;display: flex;align-items: center;justify-content: center;">| hramaros</span></p>
             </div>
             <div class="image-content animate slide delay-5"></div>
         </div>

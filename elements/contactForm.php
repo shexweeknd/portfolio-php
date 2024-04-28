@@ -16,6 +16,9 @@
 
     .form-container .button-container {
         margin-top: 1rem;
+        display: flex;
+        width: 100%;
+        justify-content: center;
     }
 
     .form-container .name input {
@@ -57,24 +60,24 @@
     <div class="name">
         <p>Qui êtes-vous ?</p>
         <div style="width: 100%; display: inline-flex">
-            <input type="text" style="text-align: left" name="nom" placeholder="Votre nom">
-            <input type="text" style="text-align: left" name="prenom" placeholder="Votre prénom">
+            <input class="form-control" type="text" style="text-align: left" name="nom" placeholder="Votre nom">
+            <input class="form-control" type="text" style="text-align: left" name="prenom" placeholder="Votre prénom">
         </div>
     </div>
     <div class="email">
         <p>Quel est votre email ?</p>
-        <input type="text" style="text-align: left; width: -webkit-fill-available" name="email" placeholder="Ex: exemple@email.com">
+        <input class="form-control" type="text" style="text-align: left; width: -webkit-fill-available" name="email" placeholder="Ex: exemple@email.com">
     </div>
     <div class="phone">
         <p>Votre numero de téléphone: </p>
-        <input type="text" style="text-align: left; width: -webkit-fill-available" name="phoneNumber" placeholder="Ex: 01 88 40 17 00">
+        <input class="form-control" type="text" style="text-align: left; width: -webkit-fill-available" name="phoneNumber" placeholder="Ex: 01 88 40 17 00">
     </div>
     <div class="message">
         <p>Votre message: </p>
         <textarea rows="5" style="text-align: left; width: -webkit-fill-available" name="message" placeholder="Veuillez entrer votre message"></textarea>
     </div>
     <div class="button-container">
-        <button class="button-5" onclick=(contactSupport())>
+        <button class="btn btn-primary" onclick=(contactSupport())>
             Envoyer
         </button>
     </div>

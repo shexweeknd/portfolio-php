@@ -2,9 +2,10 @@
     .contact {
         display: inline-flex;
         width: 100%;
-        height: -webkit-fill-available;
         justify-content: center;
         padding: 0 3rem;
+        margin-top: 3rem;
+        min-height: 100vh;
     }
 
     .contact .contact-text {
@@ -57,6 +58,10 @@
 
         .contact .contact-text p,
         .contact .contact-text a {
+            display: none;
+        }
+
+        .contact-illustration {
             display: none;
         }
 

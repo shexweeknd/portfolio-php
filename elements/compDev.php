@@ -107,7 +107,7 @@
         }
 
         ul>li {
-            font-size: 1em;
+            font-size: .9em;
             background-color: blue;
             color: white;
             white-space: nowrap;
@@ -124,9 +124,38 @@
         margin: 0 1rem;
     }
 
-    .compdev .competences .competences-content .languages {}
+    @media screen and (max-width: 980px) {
+        .compdev .competences .competences-content {
+            margin: 0 1rem;
+        }
 
-    .compdev .competences .competences-content .framework {}
+        .compdev .cv {
+            background-image: unset;
+            position: absolute;
+            width: 100%;
+        }
+
+        .compdev .skeleton {
+            animation: unset;
+        }
+
+        .compdev .cv .cv-image {
+            position: absolute;
+            left: 20%;
+            width: 30%;
+            transform: translate(50%, 90%);
+        }
+
+        .compdev .cv .button-container {
+            position: absolute;
+            left: 0;
+            margin-top: 110%;
+        }
+
+        .compdev .cv .button-container .btn {
+            border-radius: 25px;
+        }
+    }
 </style>
 
 <section id="compdev" class="compdev">
@@ -172,7 +201,7 @@
         <div class="cv-image skeleton" data-aos="fade-up">
             <img src="assets/svg/CV-dev.svg" alt="">
             <div class="consult">
-                <button id="dev-cv-button" type="button" class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#cv-modal">VOIR</button>
+                <button id="dev-cv-button" type="button" class="btn btn-outline-secondary btn-outline-dev" data-bs-toggle="modal" data-bs-target="#cv-modal">VOIR</button>
             </div>
         </div>
         <div class="button-container" data-aos="fade-up">

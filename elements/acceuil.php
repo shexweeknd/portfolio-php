@@ -87,9 +87,23 @@
     .acceuil .expertises>a {
         color: #ffff;
     }
+
+    @media screen and (max-width: 980px) {
+        .acceuil {
+            max-height: calc(100vh - 58px);
+        }
+
+        .acceuil .image-container {
+            max-width: 100%;
+            display: flex;
+            align-items: flex-end;
+            bottom: 0;
+        }
+    }
 </style>
 
 <section class="acceuil" id="particles-js">
+    <!-- <section class="acceuil"> -->
     <div class="gauche">
         <div class="wrapper" data-aos="fade-down">
             <div class="bg"> ShexWeeknd </div>
