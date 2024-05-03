@@ -55,9 +55,9 @@
 
 <style>
     .footer {
-        box-shadow: 0px -2px 8px -1px rgba(0,0,0,0.82);
-        -webkit-box-shadow: 0px -2px 8px -1px rgba(0,0,0,0.82);
-        -moz-box-shadow: 0px -2px 8px -1px rgba(0,0,0,0.82);
+        box-shadow: 0px -2px 8px -1px rgba(0, 0, 0, 0.82);
+        -webkit-box-shadow: 0px -2px 8px -1px rgba(0, 0, 0, 0.82);
+        -moz-box-shadow: 0px -2px 8px -1px rgba(0, 0, 0, 0.82);
     }
 
     .footer .coordinates {
@@ -91,6 +91,9 @@
 
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+<script src="assets/js/gsap-3.12.5.js"></script>
+<script src="assets/js/ScrollTrigger-3.12.5.js"></script>
 
 <script src="assets/js/particles.js"></script>
 <script src="assets/js/particle-app.js"></script>

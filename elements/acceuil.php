@@ -119,7 +119,7 @@
         </div>
         <span class="styled-link"><a href="#compdev">En savoir plus</a></span>
     </div>
-    <div class="image-container">
+    <div class="image-container" data-aos="fade-in">
         <img src="assets/img/img1.png" alt="image de bienvenu" srcset="">
     </div>
 </section>
