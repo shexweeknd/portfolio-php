@@ -11,6 +11,8 @@
     <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
     <script src="../assets/js/bootstrap-5.0.2.js"></script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.min.js"></script>
+
     <?php
     if (isset($canonical)) {
         echo '<link rel="canonical" href="' . $canonical . '"/>' . PHP_EOL;

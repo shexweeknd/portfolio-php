@@ -161,14 +161,15 @@
 <section id="compsys" class="compsys">
     <div class="cv skeleton">
         <div class="cv-image skeleton" data-aos="fade-up">
-            <img src="assets/svg/CV-admin.svg" alt="">
+            <!-- <img id="preview-cv-sys" alt=""> -->
+            <img id="preview-cv-sys" src="assets/svg/CV-admin.svg" alt="">
             <div class="consult">
                 <button id="admin-cv-button" type="button" class="btn btn-outline-secondary btn-outline-admin" data-bs-toggle="modal" data-bs-target="#cv-modal">VOIR</button>
             </div>
         </div>
         <div class="button-container" data-aos="fade-up">
             <a href="assets/pdf/CV-dev.pdf" rel="noopener noreferrer">
-                <button type="button" class="btn btn-danger">DOWNLOAD</button>
+                <button type="button" class="btn btn-danger">Télécharger</button>
             </a>
         </div>
     </div>
@@ -266,3 +267,14 @@
         changerSrcIframe(cvAdminLink);
     });
 </script>
+
+<script>
+        function generatePdfThumbnail(pdfUrl, target) {
+            //TODO
+        }
+
+        previewCvDev = document.getElementById("preview-cv-dev");
+        previewCvSys = document.getElementById("preview-cv-sys");
+        generatePdfThumbnail(cvDevLink, previewCvDev);
+        generatePdfThumbnail(cvAdminLink, previewCvSys);
+    </script>

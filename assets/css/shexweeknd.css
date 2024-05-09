@@ -1,3 +1,4 @@
+html,
 body {
   overflow-x: hidden;
 }
@@ -243,4 +244,11 @@ section {
 
 .btn-outline-secondary.btn-outline-admin:hover {
   background-color: rgba(255 0 0 / 20%);
+}
+
+/* reponsive design */
+@media screen and (max-width: 980px) {
+  .typewrite {
+    display: none;
+  }
 }

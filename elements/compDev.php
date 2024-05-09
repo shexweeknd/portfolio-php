@@ -199,14 +199,15 @@
     </div>
     <div class="cv skeleton">
         <div class="cv-image skeleton" data-aos="fade-up">
-            <img src="assets/svg/CV-dev.svg" alt="">
+            <!-- <img id="preview-cv-dev" alt=""> -->
+            <img id="preview-cv-dev" src="assets/svg/CV-dev.svg" alt="">
             <div class="consult">
                 <button id="dev-cv-button" type="button" class="btn btn-outline-secondary btn-outline-dev" data-bs-toggle="modal" data-bs-target="#cv-modal">VOIR</button>
             </div>
         </div>
         <div class="button-container" data-aos="fade-up">
             <a href="assets/pdf/CV-dev.pdf" rel="noopener noreferrer">
-                <button type="button" class="btn btn-primary">DOWNLOAD</button>
+                <button type="button" class="btn btn-primary">Télécharger</button>
             </a>
         </div>
     </div>

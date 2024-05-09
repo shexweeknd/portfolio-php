@@ -50,3 +50,90 @@ include_once 'elements/footer.php';
         duration: 1500,
     });
 </script>
+
+<style>
+    /* responsive */
+    @media screen and (max-width: 980px) {
+
+        p, input[type="text"], span, a {
+            font-size: 0.8rem;
+        }
+
+        .acceuil .image-container {
+            right: 0;
+        }
+
+        .acceuil .gauche {
+            transform: translate(-100%, 10%);
+        }
+
+        .acceuil .paragraph-light {
+            min-width: 60vw;
+        }
+
+        .acceuil .styled-link {
+            display: none;
+        }
+
+        .profil .wrap:hover .overlay {
+            transform: translateX(-150vw);
+        }
+
+        .profil .text {
+            width: 100%;
+            padding: 1rem 1rem;
+        }
+
+        .profil .wrap {
+            border: unset;
+            border-radius: 0px;
+        }
+
+    .compdev .competences .intro {
+        display: none;
+    }
+
+    .compdev .competences .competences-content {
+        display: none;
+    }
+
+    .compdev .cv .button-container {
+        margin-top: 150%;
+    }
+
+    .compdev .cv .cv-image {
+        width: 100%;
+        transform: translate(-20%, 0%);
+    }
+
+    .compsys .competences .intro {
+        display: none;
+    }
+
+    .compsys .competences .competences-content {
+        display: none;
+    }
+
+    .compsys .cv .button-container {
+        margin-top: 150%;
+    }
+
+    .compsys .cv .cv-image {
+        /* width: 60%; */
+        width: 100%;
+        transform: translate(-20%, 0%);
+    }
+
+    .contact {
+        margin-top: 0;
+    }
+
+    .footer .footer-content {
+        scale: 0.5;
+        position: relative;
+        transform: translate(0%, 0%);
+        left: 0;
+        top: 0
+    }
+}
+</style>
